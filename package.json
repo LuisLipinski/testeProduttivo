@@ -1,0 +1,19 @@
+{
+  "name": "teste-produtivo",
+  "version": "1.0.0",
+  "description": "Projeto para avaliação empresa produtivo",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open --browser=chrome --e2e"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.9.0",
+    "faker": "^6.6.6"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
